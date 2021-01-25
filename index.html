@@ -25,7 +25,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top text-left">
     <div class="container">
       <img src="assets/img/viajes.svg" class="small" alt="">
-      <a class="navbar-brand" href="#">Viajes Chile</a>
+      <a class="navbar-brand text-white" href="#">Viajes Chile</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -33,16 +33,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#begin">Inicio<span class="sr-only">(current)</span></a>
+            <a class="nav-link text-white" href="#begin">Inicio<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">Quienes Somos<span class="sr-only"></span></a>
+            <a class="nav-link text-white" href="#about">Quienes Somos<span class="sr-only"></span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#important">Destacados</a>
+            <a class="nav-link text-white" href="#important">Destacados</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Contacto</a>
+            <a class="nav-link text-white" href="#contact">Contacto</a>
           </li>
         </ul>
       </div>
@@ -74,28 +74,30 @@
   </section>
 
   <section class="container-fluid p-5 cuerpo d-none d-md-block" id="about">
-    <h2 class="claro my-5 font-weigth-bold text-info">Quienes somos</h2>
+    <span class="border-top bg-info"></span>
+    <h2 class="claro my-5 font-weigth-bold text-white">Quienes somos</h2>
+    <hr style="width:50%", size="2", class="bg-info"> 
     <div class="container">
       <div class="row">
-        <div class="item col-sm-4 my-5">
-          <img src="assets/img/avion.PNG" alt="logo">
-          <p class="text-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, ea tempore id modi quis
+        <div class="item col-sm-4 my-5 text-center">
+          <div class="p-3 mb-2 bg-info text-white"><i class="fas fa-plane fa-2x text-white text-center"></i></div>
+          <p class="text-justify text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, ea tempore id modi quis
             explicabo enim vero maiores nulla quisquam placeat hic aperiam expedita nostrum quas sequi optio a harum.
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta recusandae, culpa aliquid quod autem
             delectus minus iure laboriosam doloremque minima dignissimos vel beatae distinctio nostrum pariatur!
             Doloribus suscipit fugiat eius.</p>
-        </div>
-        <div class="item col-sm-4 my-5">
-          <p class="text-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta recusandae, culpa aliquid
+      </div>
+        <div class="item col-sm-4 my-5 text-center">
+          <p class="text-justify text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta recusandae, culpa aliquid
             quod autem delectus minus iure laboriosam doloremque minima dignissimos vel beatae distinctio nostrum
             pariatur! Doloribus suscipit fugiat eius. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
             recusandae, culpa aliquid quod autem delectus minus iure laboriosam doloremque minima dignissimos vel beatae
             distinctio nostrum pariatur! Doloribus suscipit fugiat eius.</p>
-          <img src="assets/img/montaña.PNG" alt="logo montaña">
+            <div class="p-3 mb-2 bg-info text-white"><i class="fas fa-mountain fa-2x text-white text-center"></i></div>
         </div>
-        <div class="item col-sm-4 my-5">
-          <img src="assets/img/mapa.PNG" alt="logo mapa">
-          <p class="text-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptas reprehenderit
+        <div class="item col-sm-4 my-5 text-center">
+          <div class="p-3 mb-2 bg-info text-white"><i class="fas fa-map-marked-alt fa-2x text-white text-center"></i></div>
+          <p class="text-justify text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptas reprehenderit
             excepturi pariatur hic? Perspiciatis a cumque dolorum necessitatibus inventore. Ipsum, asperiores? Autem
             voluptate dolorem aut nesciunt neque libero commodi. Lorem ipsum dolor sit amet consectetur adipisicing
             elit. Soluta recusandae, culpa aliquid quod autem delectus minus iure laboriosam doloremque minima
@@ -105,9 +107,10 @@
     </div>
   </section>
   <section class="container-fluid p-5 cuerpo" id="important">
-    <h2 class="claro my-5 text-info">Destacados</h2>
+    <h2 class="claro my-5 text-white">Destacados</h2>
+    <hr style="width:50%", size="2", class="bg-info"> 
     <div class="card-deck">
-      <div class="card">
+      <div class="card border-secondary">  
         <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
         <div class="card-body text-white bg-info">
           <h5 class="card-title">Card title</h5>
@@ -147,7 +150,8 @@
   </section>
 
   <section class="container-fluid py-3 cuerpo " id="contact">
-    <h2 class="display-3 font-weight-bold my-4 text-center link-light text-white">Contacto</h2>
+    <h2 class="my-4 text-center link-light text-white">Contacto</h2>
+    <hr style="width:50%", size="2", class="bg-info"> 
     <p class="text-center text-uppercase text-white">Hola, gracias por contactarnos</p>
     <div class="container">
       <form action="/post" method="post" class="bg-light p-3"> 
@@ -156,7 +160,7 @@
         <input class="form-control" name="email" placeholder="E-mail..." /><br />
         <textarea class="form-control" name="text" placeholder="En que podemos ayudarte?"
           style="height:150px;"></textarea><br />
-        <input class="btn btn-primary bg-info" type="submit" value="Enviar" /><br /><br />
+        <input class="btn btn-primary bg-info" type="submit"  value="Enviar" /><br /><br />
       </form>
     </div>
   </section>
