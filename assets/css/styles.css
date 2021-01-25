@@ -1,3 +1,16 @@
-body {
-background: black;
+.claro {
+    text-align: center;
 }
+.cuerpo {
+    background-color: black;
+}
+footer i {
+    margin: 0 0.25em 0.5em 0.25em;
+    text-align: justify;
+    } 
+footer {
+    text-align: justify;
+}
+img.small{
+    width: 50px; height: 50px;
+  }
